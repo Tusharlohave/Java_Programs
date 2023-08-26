@@ -1,8 +1,12 @@
-public class Program_03 {
+import java.util.Scanner;
+public class Find_greatest {
     public static void main(String args[]){
-        int a = 1200000;
-        int b = 13443230;
-        int c = 23456340;
+        Scannner sc = new Scanner(System.in);
+
+        System.out.println("Enter the three numbers: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
         int g;
 
         if(a > b){
