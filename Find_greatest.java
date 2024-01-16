@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Find_greatest {
     public static void main(String args[]){
-        Scannner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the three numbers: ");
         int a = sc.nextInt();
